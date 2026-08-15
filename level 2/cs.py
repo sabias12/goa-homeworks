@@ -1,0 +1,6 @@
+print(5 *2)
+print(2 / 2)
+print(2044 + 33222)
+print(322 - 32)
+print(233 < 422)
+print(3222 > 322)
