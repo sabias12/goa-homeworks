@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div and Span</title>
+
+    <style>
+        /*
+        div არის block-level ელემენტი.
+        იგი გამოიყენება HTML გვერდზე სხვადასხვა ელემენტების
+        დასაჯგუფებლად და მათზე CSS-ის გამოყენებისთვის.
+
+        div ჩვეულებრივ იკავებს მთელ ხელმისაწვდომ სიგანეს
+        და ახალი ხაზიდან იწყება.
+        */
+
+
+        /*
+        span არის inline ელემენტი.
+        იგი გამოიყენება ტექსტის ან სხვა პატარა ნაწილის
+        გამოსაყოფად და მასზე ცალკე CSS-ის გამოყენებისთვის.
+
+        span ახალ ხაზზე არ გადადის და მხოლოდ იმ ადგილს იკავებს,
+        რამდენიც მის შიგნით არსებულ კონტენტს სჭირდება.
+        */
+
+
+        /*
+        Inline ელემენტები:
+        Inline ელემენტი არ იწყებს ახალ ხაზს.
+        ის იკავებს მხოლოდ იმდენ ადგილს, რამდენიც მის კონტენტს სჭირდება.
+
+        Inline ელემენტების მაგალითებია:
+        span, a, strong
+        */
+
+
+        /*
+        Block-level ელემენტები:
+        Block-level ელემენტი იწყება ახალი ხაზიდან
+        და ჩვეულებრივ იკავებს მშობელი ელემენტის მთელ სიგანეს.
+
+        Block-level ელემენტების მაგალითებია:
+        div, p, h1
+        */
+
+
+        /* პირველი div - მხოლოდ ლინკები */
+        .links {
+            color: blue;
+            background-color: lightgray;
+            text-align: center;
+            font-size: 20px;
+            border: 3px solid black;
+            display: block;
+        }
+
+
+        /* მეორე div - მხოლოდ ტექსტები */
+        .texts {
+            color: white;
+            background-color: darkblue;
+            text-align: center;
+            font-size: 24px;
+            border: 3px solid red;
+            display: block;
+        }
+
+
+        /* მესამე div - მხოლოდ სურათები */
+        .images {
+            color: black;
+            background-color: lightgreen;
+            text-align: center;
+            font-size: 18px;
+            border: 3px solid green;
+            display: block;
+        }
+
+        .images img {
+            width: 200px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- პირველი div შეიცავს მხოლოდ anchor (a) თეგებს -->
+    <div class="links">
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.youtube.com">YouTube</a>
+        <a href="https://www.wikipedia.org">Wikipedia</a>
+    </div>
+
+
+    <!-- მეორე div შეიცავს მხოლოდ ტექსტურ ელემენტებს -->
+    <div class="texts">
+        <h1>Hello World</h1>
+        <p>This is my website.</p>
+        <p>I am learning HTML and CSS.</p>
+    </div>
+
+
+    <!-- მესამე div შეიცავს მხოლოდ სურათებს -->
+    <div class="images">
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+    </div>
+
+</body>
+</html>
