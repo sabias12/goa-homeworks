@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gaming World</title> <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #111111;
+            color: white;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #222222;
+            text-align: center;
+            border: 3px solid #00ff00;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #00ff00;
+            font-size: 45px;
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        h2 {
+            color: #00ffff;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        p {
+            color: #dddddd;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        section {
+            background-color: #1b1b1b;
+            border: 2px solid #444444;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .gallery {
+            text-align: center;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 160px;
+            border: 3px solid #00ff00;
+            margin: 10px;
+        }
+
+        .games-list {
+            background-color: #222222;
+            border: 2px solid #00ffff;
+            padding: 20px;
+        }
+
+        li {
+            color: white;
+            font-size: 18px;
+            margin: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #222222;
+            text-align: center;
+        }
+
+        th {
+            background-color: #00ff00;
+            color: black;
+            border: 2px solid black;
+            padding: 12px;
+        }
+
+        td {
+            border: 2px solid white;
+            padding: 12px;
+            color: white;
+        }
+
+        video {
+            width: 45%;
+            margin: 10px;
+            border: 3px solid #00ff00;
+        }
+
+        .videos {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #222222;
+            color: white;
+            text-align: center;
+            border: 3px solid #00ff00;
+            padding: 20px;
+        }
+
+        button {
+            background-color: #00ff00;
+            color: black;
+            font-size: 18px;
+            border: 2px solid white;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Gaming World</h1>
+        <p>კეთილი იყოს თქვენი მობრძანება Gaming World-ში!</p>
+    </header>
+    <main> <!-- ინფორმაცია -->
+        <section>
+            <h2>Gaming World-ის შესახებ</h2>
+            <p> Gaming World არის ვებგვერდი გეიმინგის შესახებ. აქ შეგიძლიათ ნახოთ სხვადასხვა თამაშები, სურათები,
+                ვიდეოები და თამაშების ინფორმაცია. </p>
+        </section> <!-- 5 სურათი -->
+        <section class="gallery">
+            <h2>თამაშების სურათები</h2> <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e"
+                alt="Gaming"> <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f"
+                alt="Gaming Computer"> <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575"
+                alt="Gaming Setup"> <img src="https://images.unsplash.com/photo-1603481546238-487240415921"
+                alt="Game Controller"> <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420"
+                alt="Gaming">
+        </section> <!-- დალაგებული სია -->
+        <section class="games-list">
+            <h2>ჩემი საყვარელი თამაშები</h2>
+            <ol>
+                <li>Grand Theft Auto V</li>
+                <li>Minecraft</li>
+                <li>Fortnite</li>
+                <li>Counter-Strike 2</li>
+                <li>EA Sports FC</li>
+            </ol>
+        </section> <!-- დაულაგებელი სია -->
+        <section class="games-list">
+            <h2>Gaming-ისთვის საჭირო ნივთები</h2>
+            <ul>
+                <li>Gaming PC</li>
+                <li>Gaming Monitor</li>
+                <li>Gaming Keyboard</li>
+                <li>Gaming Mouse</li>
+                <li>Gaming Headset</li>
+            </ul>
+        </section> <!-- ცხრილი -->
+        <section>
+            <h2>თამაშების ცხრილი</h2>
+            <table>
+                <tr>
+                    <th>თამაში</th>
+                    <th>ჟანრი</th>
+                    <th>წელი</th>
+                    <th>პლატფორმა</th>
+                </tr>
+                <tr>
+                    <td>GTA V</td>
+                    <td>Action</td>
+                    <td>2013</td>
+                    <td>PC / PS / Xbox</td>
+                </tr>
+                <tr>
+                    <td>Minecraft</td>
+                    <td>Sandbox</td>
+                    <td>2011</td>
+                    <td>PC / PS / Xbox</td>
+                </tr>
+                <tr>
+                    <td>Fortnite</td>
+                    <td>Battle Royale</td>
+                    <td>2017</td>
+                    <td>PC / PS / Xbox</td>
+                </tr>
+                <tr>
+                    <td>CS2</td>
+                    <td>FPS</td>
+                    <td>2023</td>
+                    <td>PC</td>
+                </tr>
+            </table>
+        </section> <!-- 2 ვიდეო -->
+        <section class="videos">
+            <h2>Gaming ვიდეოები</h2> <video controls>
+                <source src="video1.mp4" type="video/mp4"> თქვენი ბრაუზერი ვიდეოს ვერ აჩვენებს.
+            </video> <video controls>
+                <source src="video2.mp4" type="video/mp4"> თქვენი ბრაუზერი ვიდეოს ვერ აჩვენებს.
+            </video>
+        </section> <!-- ღილაკი -->
+        <section style="text-align: center;">
+            <h2>დაიწყე თამაში!</h2> <button> Play Now </button>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Gaming World</p>
+    </footer>
+</body>

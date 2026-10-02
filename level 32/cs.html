@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>ჩემი ვებსაიტი</title>
+
+    <style>
+
+        /* TAG SELECTOR
+           tag სელექტორით ვასტილავთ ყველა ერთნაირი თეგის ელემენტს */
+        h1 {
+            color: blue;
+            text-transform: capitalize;
+        }
+
+        /* ყველა p თეგს ექნება ეს სტილი */
+        p {
+            color: green;
+            letter-spacing: 3px;
+        }
+
+
+        /* CLASS SELECTOR
+           class სელექტორს ვწერთ წერტილით (.)
+           ერთი class შეგვიძლია რამდენიმე ელემენტს მივანი ჭოთ */
+        .text {
+            background-color: lightgray;
+            word-spacing: 5px;
+        }
+
+        /* ეს class ღილაკებისთვის გამოვიყენეთ */
+        .button {
+            background-color: yellow;
+            border-radius: 30px;
+        }
+
+
+        /* ID SELECTOR
+           id სელექტორს ვწერთ # სიმბოლოთი
+           id ჩვეულებრივ უნიკალურ ელემენტზე გამოიყენება */
+        #main-title {
+            color: red;
+            text-align: center;
+        }
+
+        #special-text {
+            color: purple;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- TAG SELECTOR-ის მაგალითი -->
+    <h1 id="main-title">ჩემი ვებსაიტი</h1>
+
+    <!-- TAG SELECTOR-ის მაგალითი -->
+    <h2>ჩემი პირველი სათაური</h2>
+
+    <p class="text">
+        ეს არის პირველი პარაგრაფი.
+    </p>
+
+    <p class="text">
+        ეს არის მეორე პარაგრაფი.
+    </p>
+
+    <p>
+        ეს არის მესამე პარაგრაფი.
+    </p>
+
+    <!-- ID SELECTOR-ის მაგალითი -->
+    <p id="special-text">
+        ეს არის სპეციალური პარაგრაფი.
+    </p>
+
+    <p>
+        ეს არის მეოთხე პარაგრაფი.
+    </p>
+
+    <p>
+        ეს არის მეხუთე პარაგრაფი.
+    </p>
+
+    <!-- მეორე სათაური -->
+    <h2>ჩემ შესახებ</h2>
+
+    <!-- მესამე სათაური -->
+    <h3>ჩემი ინტერესები</h3>
+
+    <!-- CLASS SELECTOR-ის მაგალითი -->
+    <button class="button">დაჭერა</button>
+
+    <button class="button">გაგრძელება</button>
+
+</body>
+</html>

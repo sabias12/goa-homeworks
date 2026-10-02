@@ -1,0 +1,62 @@
+body {
+    background-color: #f5f0e6;
+    color: #333333;
+    font-size: 18px;
+}
+
+header {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    border: 4px solid black;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+.dish {
+    background-color: white;
+    border: 3px solid #8b0000;
+    margin: 25px;
+    padding: 20px;
+}
+
+.dish h2 {
+    color: #8b0000;
+    font-size: 30px;
+}
+
+.dish img {
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.dish p {
+    font-size: 18px;
+}
+
+.price {
+    color: green;
+    font-size: 24px !important;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border: 3px solid black;
+    padding: 15px;
+}
